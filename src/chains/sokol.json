@@ -1,0 +1,67 @@
+{
+  "name": "sokol",
+  "chainId": 77,
+  "networkId": 77,
+  "comment": "Parity PoA test network",
+  "url": "https://github.com/poanetwork/poa-chain-spec/tree/sokol",
+  "genesis": {
+
+  },
+  "hardforks": [
+    {
+      "name": "chainstart",
+      "block": 0,
+      "consensus": "poa",
+      "finality": null
+    },
+    {
+      "name": "homestead",
+      "block": 0,
+      "consensus": "poa",
+      "finality": null
+    },
+    {
+      "name": "dao",
+      "block": 0,
+      "consensus": "poa",
+      "finality": null
+    },
+    {
+      "name": "tangerineWhistle",
+      "block": 0,
+      "consensus": "poa",
+      "finality": null
+    },
+    {
+      "name": "spuriousDragon",
+      "block": 0,
+      "consensus": "poa",
+      "finality": null
+    },
+    {
+      "name": "byzantium",
+      "block": 5067000,
+      "consensus": "poa",
+      "finality": null
+    },
+    {
+      "name": "constantinople",
+      "block": 9200000,
+      "consensus": "poa",
+      "finality": null
+    },
+    {
+      "name": "petersburg",
+      "block": 10255201,
+      "consensus": "poa",
+      "finality": null
+    },
+    {
+      "name": "istanbul",
+      "block": 14111141,
+      "consensus": "poa",
+      "finality": null
+    }
+  ],
+  "bootstrapNodes": []
+}
